@@ -1,0 +1,20 @@
+﻿
+
+<table>
+    <thead>
+        <tr>
+            <th>Tên Bài Hát</th>
+            <th>Tên Ca Sĩ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.list)
+        {
+            <tr>
+                <td>@item.TenBaiHat</td>
+                <td>@item.TenCaSi</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

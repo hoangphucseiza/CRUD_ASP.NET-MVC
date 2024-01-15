@@ -1,0 +1,55 @@
+﻿@model List<CRUD2.Models._21_22.PlayList>
+
+<form asp-action="LietKePlayList" method="get">
+   
+        <select id="nguoiNghe" name="mann" class="form-control">
+            <option value="">-- Chọn Người Nghe --</option>
+            @if (ViewBag.nguoinghelist != null)
+            {
+                foreach (var nguoiNghe in ViewBag.nguoinghelist)
+                {
+                    <option value="@nguoiNghe.MaNguoiNghe">@nguoiNghe.TenNN</option>
+                }
+            }
+        </select>
+
+    <button type="submit" >Liệt kê</button>
+</form>
+@{
+    int stt = 1;
+}
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    STT
+                </th>
+                <th>
+                    Tên Playlist
+                </th>
+                <th>
+                   Chức năng
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @stt
+                    </td>
+                    <td>
+                        <a href="PlayList/XemChiTiet/@item.MaPlayList"> @item.TenPlayList</a>
+                    </td>
+                    <td>
+                        <a href="PlayList/XoaPlayList/@item.MaPlayList">Xóa</a>
+                    </td>
+                </tr>
+                stt++;
+            }
+        </tbody>
+    </table>
+}

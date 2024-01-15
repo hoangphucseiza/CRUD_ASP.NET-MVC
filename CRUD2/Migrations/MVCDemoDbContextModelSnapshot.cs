@@ -22,6 +22,108 @@ namespace CRUD2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("CRUD2.Models._21_22.BaiHat", b =>
+                {
+                    b.Property<string>("MaBaiHat")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("TenBaiHat")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TheLoai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaBaiHat");
+
+                    b.ToTable("BaiHat");
+                });
+
+            modelBuilder.Entity("CRUD2.Models._21_22.CaSi", b =>
+                {
+                    b.Property<string>("MaCaSi")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("GioiTinh")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("NamSinh")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TenCaSi")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaCaSi");
+
+                    b.ToTable("CaSi");
+                });
+
+            modelBuilder.Entity("CRUD2.Models._21_22.CaSi_BaiHat", b =>
+                {
+                    b.Property<string>("MaCaSi")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("MaBaiHat")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("MaCaSi", "MaBaiHat");
+
+                    b.ToTable("CaSi_BaiHat");
+                });
+
+            modelBuilder.Entity("CRUD2.Models._21_22.NguoiNghe", b =>
+                {
+                    b.Property<string>("MaNguoiNghe")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("GioiTinh")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("TenNN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaNguoiNghe");
+
+                    b.ToTable("NguoiNghe");
+                });
+
+            modelBuilder.Entity("CRUD2.Models._21_22.PlayList", b =>
+                {
+                    b.Property<string>("MaPlayList")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("MaNN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SoLuong")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TenPlayList")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaPlayList");
+
+                    b.ToTable("PlayList");
+                });
+
+            modelBuilder.Entity("CRUD2.Models._21_22.PlayList_BaiHat", b =>
+                {
+                    b.Property<string>("MaPlayList")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("MaBaiHat")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("MaPlayList", "MaBaiHat");
+
+                    b.ToTable("PlayList_BaiHat");
+                });
+
             modelBuilder.Entity("CRUD2.Models.Departments", b =>
                 {
                     b.Property<int>("ID")

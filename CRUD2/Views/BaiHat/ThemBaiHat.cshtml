@@ -1,0 +1,30 @@
+﻿@model CRUD2.Models._21_22.BaiHat
+
+<h1>ThemBaiHat</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ThemBaiHat">
+            <div class="form-group">
+                <label asp-for="MaBaiHat" class="control-label"></label>
+                <input asp-for="MaBaiHat" class="form-control" />
+      
+            </div>
+            <div class="form-group">
+                <label asp-for="TenBaiHat" class="control-label"></label>
+                <input asp-for="TenBaiHat" class="form-control" />
+              
+            </div>
+            <div class="form-group">
+                <label asp-for="TheLoai" class="control-label"></label>
+                <input asp-for="TheLoai" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" >Thêm Bài Hát</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

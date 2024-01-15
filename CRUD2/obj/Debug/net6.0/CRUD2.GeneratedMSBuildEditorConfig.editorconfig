@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CODE FROJECT\C#\CRUD2\CRUD2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/BaiHat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpSGF0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/BaiHat/ThemBaiHat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpSGF0XFRoZW1CYWlIYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/CaSi/Cau2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FTaVxDYXUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/CaSi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FTaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/CaSi/LietKeCaSi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FTaVxMaWV0S2VDYVNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/CongNhan/LietKeCongNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cTGlldEtlQ29uZ05oYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/CongNhan/ViewCongNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cVmlld0NvbmdOaGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/Employees/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/PlayList/LietKePlayList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheUxpc3RcTGlldEtlUGxheUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/PlayList/XemChiTiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheUxpc3RcWGVtQ2hpVGlldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CODE FROJECT/C\#/CRUD2/CRUD2/Views/Shared/Error.cshtml]

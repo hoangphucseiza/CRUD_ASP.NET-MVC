@@ -1,0 +1,40 @@
+﻿@model List<dynamic>
+
+
+<form asp-action="LietkeCaSi" method="get">
+    <input type="date" name="Ngay" />
+    <button type="submit">Liet Ke </button>
+</form>
+
+    @if (Model != null && Model.Count > 0)
+    {
+    <table >
+        <thead>
+            <tr>
+                <th>
+                    STT
+                </th>
+                <th>
+                    Ten Ca Si
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int stt = 1;
+            }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @stt
+                    </td>
+                    <td>
+                        @item.TenCaSi
+                    </td>
+                </tr>
+                stt++;
+            }
+        </tbody>
+    </table>
+}
