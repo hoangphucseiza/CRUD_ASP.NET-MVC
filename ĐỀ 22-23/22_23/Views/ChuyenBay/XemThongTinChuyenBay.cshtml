@@ -1,0 +1,50 @@
+﻿
+Chuyến <input value="@ViewBag.chuyenbay.Chuyen" disabled/>
+Điểm đi
+<input value="@ViewBag.chuyenbay.DDi" disabled />
+Điểm đến
+<input value="@ViewBag.chuyenbay.DDen" disabled />
+Ngày bay
+<input value="@ViewBag.chuyenbay.Ngay" disabled />
+Giờ đi
+<input value="@ViewBag.chuyenbay.GBay" disabled />
+Giờ đến
+<input value="@ViewBag.chuyenbay.GDen" disabled />
+Chỗ VIP
+<input value="@ViewBag.sochovip" disabled /> /
+<input value="@ViewBag.chuyenbay.Vip" disabled />
+Chỗ Thường
+<input value="@ViewBag.sochothuong" disabled /> /
+<input value="@ViewBag.chuyenbay.Thuong" disabled  />
+
+<button onclick="window.location.href=
+'@Url.Action("ThemHanhKhachChuyenBay", "CTCB", new { macb = ViewBag.chuyenbay.MaCH })'">
+    Thêm hành khách
+</button>
+
+
+<table>
+    <tr>
+        <th>Họ tên hành khách</th>
+        <th>Điện thoại</th>
+        <th>Loại ghế</th>
+        <th>Số ghế</th>
+        <th>Chức năng</th>
+    </tr>
+    @foreach (var item in ViewBag.dslietke)
+    {
+        <tr>
+            <td>@item.HoTen</td>
+            <td>@item.DienThoai</td>
+            <td>
+               @(item.LoaiGhe == true ? "VIP" : "Thường")
+            </td>
+            <td>@item.SoGhe</td>
+            <td>
+                <a asp-controller="CTCB" asp-action="XoaHanhKhachChuyenBay" asp-route-macb="@ViewBag.chuyenbay.MaCH" asp-route-mahk="@item.MaHK">Xóa</a>
+                <a asp-controller="CTCB" asp-action="SuaHanhKhachChuyenBay" asp-route-macb="@ViewBag.chuyenbay.MaCH" asp-route-mahk="@item.MaHK">Sửa</a>
+
+            </td>
+        </tr>
+    }
+</table>

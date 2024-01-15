@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _22_23
+build_property.RootNamespace = _22_23
+build_property.ProjectDir = D:\CODE FROJECT\C#\22_23\22_23\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CODE FROJECT\C#\22_23\22_23
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/ChuyenBay/LietKe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5XExpZXRLZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/ChuyenBay/XemThongTinChuyenBay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5XFhlbVRob25nVGluQ2h1eWVuQmF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/CTCB/SuaHanhKhachChuyenBay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1RDQlxTdWFIYW5oS2hhY2hDaHV5ZW5CYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/CTCB/ThemHanhKhachChuyenBay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1RDQlxUaGVtSGFuaEtoYWNoQ2h1eWVuQmF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/HanhKhach/ThemHanhKhach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoXFRoZW1IYW5oS2hhY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODE FROJECT/C\#/22_23/22_23/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oaiqaw385n

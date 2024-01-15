@@ -1,0 +1,38 @@
+﻿Chuyến
+<input value="@ViewBag.ChuyenBay.Chuyen" disabled />
+Điểm đi
+<input value="@ViewBag.ChuyenBay.DDi" disabled />
+Điểm đến
+<input value="@ViewBag.ChuyenBay.DDen" disabled />
+Ngày bay
+<input value="@ViewBag.ChuyenBay.Ngay" disabled />
+Giờ đi
+<input value="@ViewBag.ChuyenBay.GBay" disabled />
+Giờ đến
+<input value="@ViewBag.ChuyenBay.GDen" disabled />
+Chỗ VIP
+<input value="@ViewBag.sochovip" disabled /> /
+<input value="@ViewBag.ChuyenBay.Vip" disabled />
+Chỗ Thường
+<input value="@ViewBag.sochothuong" disabled /> /
+<input value="@ViewBag.ChuyenBay.Thuong" disabled />
+
+
+<form asp-action="ThemHanhKhachChuyenBay" method="post">
+    <input value="@ViewBag.ChuyenBay.MaCH" type="hidden"  name="macb"/>
+    Mã Hành Khách <input type="text" name="mahk" />
+    Tên Hành Khách <select  >
+            @foreach (var item in ViewBag.listhanhkhach)
+            {
+            <option value="@item.HoTen">@item.HoTen</option>
+            }
+        </select >
+    Loại ghế <select  name="loaighe" >
+                 <option value="true">VIP</option>
+                  <option value="false">Thường</option>
+         <select/>
+    Số Ghế <input type="text" name="soghe" />
+
+    <button type="submit">Thêm hành khách</button>
+</form>
+

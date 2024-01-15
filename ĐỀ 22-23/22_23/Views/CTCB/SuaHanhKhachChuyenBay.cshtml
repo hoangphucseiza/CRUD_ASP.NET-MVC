@@ -1,0 +1,23 @@
+﻿
+<form asp-action="SuaHanhKhachChuyenBay" method="post">
+    <input value="@ViewBag.CT_CB.MaCH" type="hidden" name="macb" />
+Mã hành khách <input type="text" name="mahk" value="@ViewBag.hanhkhach.MaHK" disabled />
+
+    Tên hành khách <input type="text" name="tenhk" value="@ViewBag.hanhkhach.HoTen" disabled />
+
+Loại ghế <select name="loaighe">
+    @if(ViewBag.CT_CB.LoaiGhe == true)
+    {
+        <option value="true" selected>VIP</option>
+        <option value="false">Thường</option>
+    }
+    else
+    {
+        <option value="true">VIP</option>
+        <option value="false" selected>Thường</option>
+    })
+</select>
+
+Số ghế <input type="text" name="soghe" value="@ViewBag.CT_CB.SoGhe" />
+<button type="submit">Sửa</button>
+</form>
